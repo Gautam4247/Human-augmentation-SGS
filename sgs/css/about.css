@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+nav{
+    font-weight: bold;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 55px, rgba(255, 255, 255, 0.12) 0px -32px 30px, rgba(238, 236, 236, 0.12) 0px 4px 6px, rgba(251, 251, 251, 0.17) 0px 2px 6px, rgba(255, 255, 255, 0.09) 0px -1px 5px; */
+    
+}
+.nav-item{
+    color: white;
+    padding: 2vh;
+    margin: 1vh;
+}
+
+h1{
+padding-top: 5rem;
+color:white;
+text-decoration: underline;
+    text-align: center;
+}
+header{
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url("file:///C:/Users/lenovo/Downloads/blurry-gradient-haikei%20(4).svg");
+    background-color: black;
+}
+.flex-container{
+    height: 70vh;
+    width:100%;
+    display: flex;
+  
+    /* background-color: aqua; */
+    align-items: center;
+}
+.flex-item{
+  
+    justify-content:space-between;
+   
+}
+#flex-img{
+    margin-left: 4rem;;
+}
+    #flex-para{
+     
+        text-align: center;
+        margin-left: 4rem;
+        height: 3vh;
+        font-size:1.5rem;
+    }
+    svg{
+        position:absolute;
+        bottom: .1vh;
+    }
+    

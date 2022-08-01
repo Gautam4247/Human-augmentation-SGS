@@ -1,0 +1,60 @@
+/* ------------------------------------------------------CODE FOR HTML PAGE WAYS GOES HERE--------------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    font-size:10px;
+    font-family: 'Noto Sans', sans-serif;
+    
+
+}
+/* .main-text{
+    
+    height: 60vh;
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.text{
+    color:white;
+    font-size:5rem;
+} */
+.flex-container{
+    background-size: cover;
+    background-image: url("file:///C:/Users/lenovo/Downloads/blurry-gradient-haikei%20(3).svg");
+    background-color: black;
+    
+    height: 90vh;
+    width:100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+.flex-item{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* border:2px solid black; */
+    background-image:url("file:///C:/Users/lenovo/Downloads/blob-scene-haikei.svg");
+    background-size: cover;
+    border-radius: .8rem;
+    height:50vh;
+    width:41vh;
+    margin: 4vh;;
+    margin-top: 13vh;
+    transition:.5s;
+
+}
+.flex-item:hover{
+    transform: translateY(-50px);
+    transition: .5s;
+    cursor: pointer;
+}.flex-img{
+    height:50vh;
+    width:40vh;
+    text-align: center;
+}
