@@ -11,49 +11,52 @@ nav{
     
 }
 .nav-item{
+
     color: white;
     padding: 2vh;
     margin: 1vh;
 }
 
 h1{
-padding-top: 5rem;
+    
+padding-top:10vh;
 color:white;
 text-decoration: underline;
+text-underline-offset: 1rem;
+
     text-align: center;
 }
 header{
     height: 100vh;
     min-height: 400px;
     background-size: cover;
-    background-image: url("file:///C:/Users/lenovo/Downloads/blurry-gradient-haikei%20(4).svg");
+    background-image:url("file:///C:/Users/lenovo/Downloads/blurry-gradient-haikei%20(4).svg");
     background-color: black;
 }
 .flex-container{
     height: 70vh;
     width:100%;
     display: flex;
-  
-    /* background-color: aqua; */
     align-items: center;
 }
-.flex-item{
-  
-    justify-content:space-between;
-   
-}
+
 #flex-img{
-    margin-left: 4rem;;
+    margin-left: 4rem;
+    float:left;
 }
     #flex-para{
-     
+        width:90vh;
+        margin-left:15vh;
+     color: white;
+     font-weight: bold;
         text-align: center;
-        margin-left: 4rem;
-        height: 3vh;
-        font-size:1.5rem;
+        float: right;
+        font-size:3vh;
+        overflow-wrap: break-word;
     }
     svg{
         position:absolute;
         bottom: .1vh;
     }
+   
     

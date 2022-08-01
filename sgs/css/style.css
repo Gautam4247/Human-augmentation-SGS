@@ -37,8 +37,9 @@ header{
 .main-text{
   text-shadow: rgba(0, 0, 0, 0.16) 0px 13px 16px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   float: left;
+
     color: white;
-    font-size:70px;
+    font-size:8vh;
     font-weight: 800;
 }
 .img-brain{
@@ -53,6 +54,7 @@ margin-top: -38%;
 
 
 svg{
+    
     position:absolute;
     bottom: .1vh;
 }
