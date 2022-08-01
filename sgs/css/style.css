@@ -18,8 +18,8 @@ nav{
 header{
     height: 100vh;
     min-height: 400px;
-    background-size: cover;
-    background-image: url("file:///C:/Users/lenovo/Downloads/blurry-gradient-haikei.svg");
+    background: rgb(196,2,254);
+background: linear-gradient(0deg, rgba(196,2,254,1) 0%, rgba(75,218,199,1) 100%);
     background-color: black;
     
     

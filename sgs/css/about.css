@@ -29,8 +29,8 @@ text-underline-offset: 1rem;
 header{
     height: 100vh;
     min-height: 400px;
-    background-size: cover;
-    background-image:url("file:///C:/Users/lenovo/Downloads/blurry-gradient-haikei%20(4).svg");
+    background: rgb(159,78,199);
+background: linear-gradient(90deg, rgba(159,78,199,1) 0%, rgba(49,202,161,1) 64%);
     background-color: black;
 }
 .flex-container{
