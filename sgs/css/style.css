@@ -6,7 +6,7 @@
 }
 nav{
     font-weight: bold;
-    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 55px, rgba(255, 255, 255, 0.12) 0px -32px 30px, rgba(238, 236, 236, 0.12) 0px 4px 6px, rgba(251, 251, 251, 0.17) 0px 2px 6px, rgba(255, 255, 255, 0.09) 0px -1px 5px; */
+
     
 }
 .nav-item{
@@ -18,8 +18,9 @@ nav{
 header{
     height: 100vh;
     min-height: 400px;
-    background: rgb(196,2,254);
-background: linear-gradient(0deg, rgba(196,2,254,1) 0%, rgba(75,218,199,1) 100%);
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
     background-color: black;
     
     
